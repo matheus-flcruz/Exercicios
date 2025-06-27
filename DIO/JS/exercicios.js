@@ -316,15 +316,46 @@ const mediaNotas = somaDasNotas / notas2.length;
 
 // 22 ----------------------------------------------------------------------
 
+const numeros1 = [30, 22, 37];
 
+let maiorNumero2 = numeros1[0];
+
+for (let i = 1; i < numeros1.length; i++) {
+    if (numeros1[i] > maiorNumero2) {
+        maiorNumero2 = numeros1[i];
+    }
+}
+
+console.log(`O maior número é ${maiorNumero2}.`);
 
 // 23 ----------------------------------------------------------------------
 
+const endereco = {
+    rua: 'Rua das Flores',
+    numero: 123,
+    cidade: 'São Paulo'
+}
 
+console.log(`Endereço: ${endereco.rua}, ${endereco.numero} - ${endereco.cidade}.`);
 
 // 24 ----------------------------------------------------------------------
 
+const numeros2 = [10, 20, 30];
 
+const [a, b, c] = numeros2;
+
+console.log(`Os números são: ${a}, ${b} e ${c}.`);
 
 // 25 ----------------------------------------------------------------------
 
+const nome2 = gets();
+const idade2 = gets();
+const profissao2 = gets();
+
+const pessoa2 = {
+  nome: nome2,
+  idade: idade2,
+  profissao: profissao2
+};
+
+print(`Olá, ${pessoa2.nome2}! Você tem ${pessoa2.idade2} anos e trabalha como ${pessoa2.profissao2}.`);
