@@ -253,3 +253,78 @@ console.log(`Seu saldo é de R$ ${conta.saldo.toFixed(2)}`);
 
 conta.sacar(200);
 console.log(`Seu saldo é de R$ ${conta.saldo.toFixed(2)}`);
+
+// 16 ----------------------------------------------------------------------
+
+const frutas = ['Maçã', 'Banana', 'Laranja', 'Uva', 'Manga'];
+console.log(`Lista de frutas: ${frutas.join(', ')}.`);
+
+const frutasComM = frutas.filter(fruta => fruta.toLowerCase().startsWith('m'));
+console.log(`As frutas que começam com a letra 'M' nessa lista são: ${frutasComM.join(', ')}.`);
+
+// 17 ----------------------------------------------------------------------
+
+const numerosArray = [10, 2, 35, 5, 26];
+let soma = 0;
+
+for (let i = 0; i < numerosArray.length; i++) {
+    soma += numerosArray[i];
+}
+
+console.log(`A soma de todos os números da array é ${soma}.`);
+
+// 18 ----------------------------------------------------------------------
+
+const nomes = ['Ana', 'Bruno', 'Carlos', 'Marcelo', 'Eduardo'];
+
+const nomesComSeisLetras = nomes.filter(nome => nome.length >= 6);
+console.log(`Os nomes com 6 letras ou mais são: ${nomesComSeisLetras.join(', ')}.`);
+// 19 ----------------------------------------------------------------------
+
+const multiplosDe10 = [];
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 10 === 0) {
+        multiplosDe10.push(i);
+    }
+}
+
+const ultimo = multiplosDe10.pop();
+console.log("Os números divisíveis por 10 são: " + multiplosDe10.join(", ") + " e " + ultimo + ".");
+
+// 20 ----------------------------------------------------------------------
+
+const notas2 = [9, 9.5, 8.5, 10];
+let somaDasNotas = 0;
+
+
+for (let i = 0; i < notas2.length; i++) {
+    somaDasNotas += notas2[i];
+}
+
+const mediaNotas = somaDasNotas / notas2.length;
+
+    if (mediaNotas >= 7) {
+    console.log(`A média do(a) aluno(a) é ${mediaNotas.toFixed(2)}. Ele(a) foi aprovado!`);
+} else {
+    console.log(`A média do(a) aluno(a) é ${mediaNotas.toFixed(2)}. Ele(a) foi reprovado!`);
+}
+
+// 21 ----------------------------------------------------------------------
+
+
+
+// 22 ----------------------------------------------------------------------
+
+
+
+// 23 ----------------------------------------------------------------------
+
+
+
+// 24 ----------------------------------------------------------------------
+
+
+
+// 25 ----------------------------------------------------------------------
+
