@@ -34,10 +34,10 @@ let senha = 1234;
 
 function verificarCredenciais(usuario, senha) {
     if (usuario === 'admin' && senha === 1234) {
-    console.log('Acesso permitido.');
-} else {
-    console.log('Usuário ou Senha incorretos.');
-}
+        console.log('Acesso permitido.');
+    } else {
+        console.log('Usuário ou Senha incorretos.');
+    }
 }
 
 console.log(verificarCredenciais(usuario, senha));
@@ -174,18 +174,82 @@ console.log(calcularFatorial(entrada5));
 
 // 11 ---------------------------------------------------------------------
 
+const carro = {
+    marca: 'Toyota',
+    modelo: 'Corolla Cross',
+    ano: 2025,
+};
 
+console.log(`O carro é um ${carro.marca} ${carro.modelo} do ano ${carro.ano}.`);
 
 // 12 ----------------------------------------------------------------------
 
+const usuario1 = {
+    nome: 'Carlos',
+    idade: 42,
+}
 
+function imprimirDadosUsuario(usuario) {
+    console.log(`Nome: ${usuario.nome}`);
+    console.log(`Idade: ${usuario.idade}`);
+}
+
+imprimirDadosUsuario(usuario1);
 
 // 13 ----------------------------------------------------------------------
 
+class Pessoa {
+    nome;
+    idade;
 
+    apresentar() {
+        console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+    }
+}
 
+const pessoa1 = new Pessoa();
+pessoa1.nome = 'Ana';
+pessoa1.idade = 30;
+pessoa1.apresentar();
 // 14 ----------------------------------------------------------------------
 
+class Aluno {
+    constructor(nome, notas) {
+        this.nome = nome;
+        this.notas = notas;
+    }
 
+    calcularMedia() {
+        const soma = this.notas.reduce((acc, nota) => acc + nota, 0);
+        return soma / this.notas.length;
+    }
+}
 
+const aluno1 = new Aluno('Maria Eduarda', [8.5, 9, 7.5]);
+
+console.log(`A média do(a) aluno(a) ${aluno1.nome} é ${aluno1.calcularMedia().toFixed(2)}.`);
 // 15 ----------------------------------------------------------------------
+
+class ContaBancaria {
+    constructor(saldo) {
+        this.saldo = saldo;
+    }
+
+    depositar(valor) {
+        this.saldo += valor;
+    }
+
+    sacar(valor) {
+        if (this.saldo < valor) {
+            throw new Error('Saldo insuficiente.');
+        }
+        this.saldo -= valor;
+    }
+}
+
+const conta = new ContaBancaria(1000);
+conta.depositar(500);
+console.log(`Seu saldo é de R$ ${conta.saldo.toFixed(2)}`);
+
+conta.sacar(200);
+console.log(`Seu saldo é de R$ ${conta.saldo.toFixed(2)}`);
