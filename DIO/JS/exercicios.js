@@ -189,9 +189,9 @@ const usuario1 = {
     idade: 42,
 }
 
-function imprimirDadosUsuario(usuario) {
-    console.log(`Nome: ${usuario.nome}`);
-    console.log(`Idade: ${usuario.idade}`);
+function imprimirDadosUsuario({ nome, idade }) {
+  console.log(`Nome: ${nome}`);
+  console.log(`Idade: ${idade}`);
 }
 
 imprimirDadosUsuario(usuario1);
@@ -333,10 +333,11 @@ console.log(`O maior número é ${maiorNumero2}.`);
 const endereco = {
     rua: 'Rua das Flores',
     numero: 123,
-    cidade: 'São Paulo'
+    cidade2: 'São Paulo'
 }
 
-console.log(`Endereço: ${endereco.rua}, ${endereco.numero} - ${endereco.cidade}.`);
+const { rua, numero, cidade2 } = endereco;
+console.log(`Endereço: ${rua}, ${numero} - ${cidade2}.`);
 
 // 24 ----------------------------------------------------------------------
 
@@ -358,4 +359,5 @@ const pessoa2 = {
   profissao: profissao2
 };
 
-print(`Olá, ${pessoa2.nome2}! Você tem ${pessoa2.idade2} anos e trabalha como ${pessoa2.profissao2}.`);
+print(`Olá, ${pessoa2.nome}! Você tem ${pessoa2.idade} anos e trabalha como ${pessoa2.profissao}.`);
+
