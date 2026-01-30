@@ -1,0 +1,14 @@
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\bin\Debug\net10.0\CofreDigital.exe
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\bin\Debug\net10.0\CofreDigital.deps.json
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\bin\Debug\net10.0\CofreDigital.runtimeconfig.json
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\bin\Debug\net10.0\CofreDigital.dll
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\bin\Debug\net10.0\CofreDigital.pdb
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.AssemblyInfoInputs.cache
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.AssemblyInfo.cs
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.dll
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\refint\CofreDigital.dll
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.pdb
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\CofreDigital.genruntimeconfig.cache
+C:\Users\mathe\Documents\GitHub\Exercicios\C#\CofreDigital\obj\Debug\net10.0\ref\CofreDigital.dll
