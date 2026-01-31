@@ -1,12 +1,3 @@
-# Exercícios
+# 🚀 Estudos de Tecnologia: Front-End & Cibersegurança
 
-Nesse repositório vou concentrar todos os exercícios para fixação dos conteúdos de todos os cursos que eu for fazendo.
-
-Vou criar pastas para cada curso e tecnologia.
-
-- HTML
-- CSS
-- Bootstrap
-- Lógica de Programação
-- JavaScript
-- React
+Bem-vindo ao meu repositório de exercícios! Aqui documento minha evolução técnica enquanto curso Tecnologia em Segurança Cibernética no Senac e me aprofundo em desenvolvimento web FrontEnd.
